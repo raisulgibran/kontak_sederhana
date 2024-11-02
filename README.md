@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+Aplikasi Kontak Sederhana adalah aplikasi manajemen kontak berbasis Flutter yang memungkinkan pengguna untuk menambah, mengedit, dan menghapus kontak. Aplikasi ini menggunakan Provider sebagai state management untuk mengelola daftar kontak secara efisien dan memastikan sinkronisasi data antar-layar.
+
