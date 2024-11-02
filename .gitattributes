@@ -1,0 +1,13 @@
+# Mengatur semua file teks agar menggunakan LF di repository
+* text=auto eol=lf
+
+# Contoh aturan untuk file tertentu
+*.dart text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+
+# Binary files - menjaga EOL seperti semula
+*.png binary
+*.jpg binary
+*.pdf binary

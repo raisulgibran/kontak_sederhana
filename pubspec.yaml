@@ -1,0 +1,25 @@
+name: kontak_sederhana
+description: A simple contact management app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'  # Menambahkan batasan SDK di sini
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  path_provider: ^2.0.10 # Tambahkan path_provider untuk menyimpan data
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/data/contacts.json # Pastikan jalur ini sesuai dengan lokasi file JSON Anda
+
+# Menghindari duplikasi kunci
+# Jika ada bagian `dependency_overrides`, pastikan untuk menyesuaikan.
